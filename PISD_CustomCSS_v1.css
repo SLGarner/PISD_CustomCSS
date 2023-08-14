@@ -1,0 +1,40 @@
+<head>
+	<style>
+        #flex {
+            display: flex;
+            flex-direction: column;
+        }
+  
+        .page-productdetails #divFormGroup.form-group.product-itemname-container {
+            order: 1;
+        }
+  
+        .page-productdetails #divFormGroup.form-group.product-itemdescription-container {
+            order: 2;
+        }
+  
+        .page-productdetails p.product-description {
+            order: 3;
+        }
+        .page-productdetails #upnlPricingDetails {
+            order: 4;
+        }
+        .page-productdetails #fulFileUpload.postback-upload.file-upload {
+            order: 5;
+        }
+        .page-productdetails .form-group.product-notes-container {
+            order: 6;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="flex">
+        <div id=".page-productdetails #divFormGroup.form-group.product-itemname-container"></div>
+        <div id=".page-productdetails #divFormGroup.form-group.product-itemdescription-container"></div>
+        <div id=".page-productdetails p.product-description"></div>
+        <div id=".page-productdetails #upnlPricingDetails"></div>
+        <div id=".page-productdetails #fulFileUpload.postback-upload.file-upload"></div>
+        <div id=".page-productdetails .form-group.product-notes-container"></div>
+    </div>
+</body>
